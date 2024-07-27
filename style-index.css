@@ -108,6 +108,7 @@ a{
 
 .container {
     position: relative;
+    display: flex;
     background: url('all png/bg-pg1.png') no-repeat center center;
     background-size: cover;
     overflow-y: scroll;
@@ -169,6 +170,7 @@ a{
 
 .button-container {
     position:absolute;
+    display: flex;
     width: 100%;
     top: 65%;
     padding-left: auto;
@@ -181,7 +183,6 @@ a{
 .button {
     min-width: 50px;
     max-width: 200px;
-
 }
 
 button:hover {
@@ -190,6 +191,7 @@ button:hover {
 
 .text1 {
     position: absolute;
+    display: flex;
     top: var(--fpt1t);
     font-size: var(--fpt1fs);
     width: var(--fpt1w);
@@ -205,6 +207,7 @@ button:hover {
 
 .text2 {
     position: absolute;
+    display: flex;
     top: var(--fpt2t);
     width: var(--fpt2w);
     padding-left: auto;
@@ -225,62 +228,78 @@ button:hover {
 
 .planet1 {
     position: absolute;
+    display: flex;
     top: var(--fpplanet1t);
     height: var(--fpplanet1h);
+    width: auto;
     overflow: hidden;
 }
 
 .planet2 {
+    display: flex;
     position: absolute;
     top: var(--fpplanet2t);
     height:var(--fpplanet2h);
+    width: auto;
     overflow: hidden;
 }
 
 .planet3 {
+    display: flex;
     position: absolute;
     top: var(--fpplanet3t);
     height: var(--fpplanet3h);
+    width: auto;
     overflow: hidden;
 }
 
 .planet4 {
+    display: flex;
     position: absolute;
     top: var(--fpplanet4t);
     left: var(--fpplanet4l);
     height: var(--fpplanet4h);
+    width: auto;
     overflow: hidden;
 }
 
 .planet5 {
+    display: flex;
     position: absolute;
     right: var(--fpplanet5r);
     top:var(--fpplanet5t);
     height: var(--fpplanet5h);
+    width: auto;
     overflow: hidden;
 }
 
 .planet6 {
+    display: flex;
     position: absolute;
     right: var(--fpplanet6r);
     top: var(--fpplanet6t);
     height: var(--fpplanet6h);
+    width: auto;
     overflow: hidden;
 }
 
 .planet7 {
+    display: flex;
     position: absolute;
     right: var(--fpplanet7r);
     top: var(--fpplanet7t);
     height: var(--fpplanet7h);
+    width: auto;
     overflow: hidden;
 }
 
 .planet8 {
+    display: flex;
     position: absolute;
     left:var(--fpplanet8l);
     top: var(--fpplanet8t);
     height: var(--fpplanet8h);
+    width: auto;
     overflow: hidden;
 }
 
