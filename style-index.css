@@ -108,13 +108,12 @@ a{
 
 .container {
     position: relative;
-    display: flex;
     background: url('all png/bg-pg1.png') no-repeat center center;
     background-size: cover;
     overflow-y: scroll;
     scrollbar-color: black;
     scrollbar-width: thin;
-    min-height: 300px;
+    
 }
 
 
@@ -194,7 +193,8 @@ button:hover {
     display: flex;
     top: var(--fpt1t);
     font-size: var(--fpt1fs);
-    width: var(--fpt1w);
+    width: 100%;
+    height: 30%;
     font-family: orbitron;
     font-weight: bold;
     display: flex;
@@ -202,14 +202,15 @@ button:hover {
     padding-right: auto;
     justify-content: center;
     text-align: center;
-    overflow: hidden;
+    
 }
 
 .text2 {
     position: absolute;
     display: flex;
     top: var(--fpt2t);
-    width: var(--fpt2w);
+    width: 100%;
+    height: 10%;
     padding-left: auto;
     padding-right: auto;
     font-size: var(--fpt2fs);
@@ -218,7 +219,7 @@ button:hover {
     display: flex;
     justify-content: center;
     text-align: center;
-    overflow: hidden;
+    
 }
 
 
@@ -229,26 +230,30 @@ button:hover {
 .planet1 {
     position: absolute;
     display: flex;
-    top: var(--fpplanet1t);
-    height: var(--fpplanet1h);
+    top: 6%;
+    left:0;
+    height: 23.24%;
     width: auto;
     overflow: hidden;
 }
 
+
 .planet2 {
     display: flex;
     position: absolute;
-    top: var(--fpplanet2t);
-    height:var(--fpplanet2h);
+    top: 28%;
+    height:51%;
     width: auto;
+    left:0;
     overflow: hidden;
 }
 
 .planet3 {
     display: flex;
     position: absolute;
-    top: var(--fpplanet3t);
-    height: var(--fpplanet3h);
+    bottom:0;
+    left:0;
+    height: 13.5%;
     width: auto;
     overflow: hidden;
 }
@@ -256,9 +261,9 @@ button:hover {
 .planet4 {
     display: flex;
     position: absolute;
-    top: var(--fpplanet4t);
-    left: var(--fpplanet4l);
-    height: var(--fpplanet4h);
+    bottom: 0;
+    left: 40%;
+    height: 14%;
     width: auto;
     overflow: hidden;
 }
@@ -266,9 +271,9 @@ button:hover {
 .planet5 {
     display: flex;
     position: absolute;
-    right: var(--fpplanet5r);
-    top:var(--fpplanet5t);
-    height: var(--fpplanet5h);
+    right: 0;
+    bottom:0;
+    height: 32%;
     width: auto;
     overflow: hidden;
 }
@@ -276,9 +281,9 @@ button:hover {
 .planet6 {
     display: flex;
     position: absolute;
-    right: var(--fpplanet6r);
-    top: var(--fpplanet6t);
-    height: var(--fpplanet6h);
+    right: 0;
+    top: 14%;
+    height: 40.5%;
     width: auto;
     overflow: hidden;
 }
@@ -286,9 +291,9 @@ button:hover {
 .planet7 {
     display: flex;
     position: absolute;
-    right: var(--fpplanet7r);
-    top: var(--fpplanet7t);
-    height: var(--fpplanet7h);
+    left: 52%;
+    top: 12%;
+    height: 13.5%;
     width: auto;
     overflow: hidden;
 }
@@ -296,9 +301,9 @@ button:hover {
 .planet8 {
     display: flex;
     position: absolute;
-    left:var(--fpplanet8l);
-    top: var(--fpplanet8t);
-    height: var(--fpplanet8h);
+    left:20%;
+    top: 45%;
+    height: 6%;
     width: auto;
     overflow: hidden;
 }
