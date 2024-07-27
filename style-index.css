@@ -11,33 +11,33 @@
     --fprightpr: 100px;
     --fpbuttont: 500px;
     --fpbuttonl: 650px;
-    --fpbuttonw: 200px;
-    --fpt1t: 130px;
+    --fpbuttonw: auto;
+    --fpt1t: 5%;
     --fpt1l: 420px;
     --fpt1fs: 65px;
     --fpt2t: 400px;
     --fpt2l: 300px;
     --fpt2fs: 17px;
-    --fpplanet1t: 20px;
-    --fpplanet1w: 140px;
-    --fpplanet2t: 180px;
-    --fpplanet2w: 280px;
-    --fpplanet3t: 615px;
-    --fpplanet3w: 115px;
+    --fpplanet1t: 5%;
+    --fpplanet1w: auto;
+    --fpplanet2t: 28%;
+    --fpplanet2w: auto;
+    --fpplanet3t: 85%;
+    --fpplanet3w: auto;
     --fpplanet4t: 600px; 
     --fpplanet4l: 620px;
-    --fpplanet4w: 250px;
+    --fpplanet4w: auto;
     --fpplanet5t: 470px;
-    --fpplanet5w: 300px;
+    --fpplanet5w: auto;
     --fpplanet5r: 0px;
     --fpplanet6t: 90px;
-    --fpplanet6w: 220px;
+    --fpplanet6w: auto;
     --fpplanet6r: 0px;
     --fpplanet7t: 130px;
-    --fpplanet7w: 145px;
+    --fpplanet7w: auto;
     --fpplanet7r: 560px;
     --fpplanet8t: 370px;
-    --fpplanet8w: 70px;
+    --fpplanet8w: auto;
     --fpplanet8l: 300px;
 }
 
@@ -63,7 +63,7 @@
     --fpt2l: 300px;
     --fpt2fs: 17px;
     --fpplanet1t: 20px;
-    --fpplanet1w: 25px;
+    --fpplanet1w: 140px;
     --fpplanet2t: 180px;
     --fpplanet2w: 280px;
     --fpplanet3t: 615px;
@@ -104,6 +104,7 @@ a{
     overflow-y: scroll;
     scrollbar-color: black;
     scrollbar-width: thin;
+    min-height: 500px;
 }
 
 
@@ -201,20 +202,20 @@ button:hover {
 
 .planet1 {
     position: absolute;
-    width: var(--fpplanet1w);
     top: var(--fpplanet1t);
+    height: 20%;
 }
 
 .planet2 {
     position: absolute;
     top: var(--fpplanet2t);
-    width: var(--fpplanet2w);
+    height:60%;
 }
 
 .planet3 {
     position: absolute;
     top: var(--fpplanet3t);
-    width: var(--fpplanet3w);
+    height: 15%;
 }
 
 .planet4 {
