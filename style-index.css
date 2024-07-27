@@ -113,7 +113,8 @@ a{
     overflow-y: scroll;
     scrollbar-color: black;
     scrollbar-width: thin;
-    
+    min-width:390px;
+    max-height: 844px;
 }
 
 
