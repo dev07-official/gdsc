@@ -40,6 +40,50 @@
     --fpplanet8w: 70px;
     --fpplanet8l: 300px;
 }
+@media screen and (max-width: 768px) {
+:root {
+    --fpleftml: 190px;
+    --fplogomt: 40px;
+    --fplogoheight: 25px;
+    --fphhfs: 35px;
+    --fphhmt: 30px;
+    --fpmidfs: 20px;
+    --fpmidpt: 30px;
+    --fpmidpl: 100px;
+    --fpmidamr: 40px;
+    --fprightpr: 100px;
+    --fpbuttont: 500px;
+    --fpbuttonl: 650px;
+    --fpbuttonw: 200px;
+    --fpt1t: 130px;
+    --fpt1l: 420px;
+    --fpt1fs: 65px;
+    --fpt2t: 400px;
+    --fpt2l: 300px;
+    --fpt2fs: 17px;
+    --fpplanet1t: 2px;
+    --fpplanet1w: 25px;
+    --fpplanet2t: 180px;
+    --fpplanet2w: 280px;
+    --fpplanet3t: 615px;
+    --fpplanet3w: 115px;
+    --fpplanet4t: 600px; 
+    --fpplanet4l: 620px;
+    --fpplanet4w: 250px;
+    --fpplanet5t: 470px;
+    --fpplanet5w: 300px;
+    --fpplanet5r: 0px;
+    --fpplanet6t: 90px;
+    --fpplanet6w: 220px;
+    --fpplanet6r: 0px;
+    --fpplanet7t: 130px;
+    --fpplanet7w: 145px;
+    --fpplanet7r: 560px;
+    --fpplanet8t: 370px;
+    --fpplanet8w: 70px;
+    --fpplanet8l: 300px;
+}
+}
 
 html {
     scroll-behavior: smooth;
