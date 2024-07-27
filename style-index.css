@@ -1,4 +1,16 @@
+html {
+    scroll-behavior: smooth;
+    color: aliceblue;
+    font-size: var(--fontsize);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
 :root {
+    --fontsize: 1vw;
     --fpleftml: 190px;
     --fplogomt: 40px;
     --fplogoheight: 25px;
@@ -9,39 +21,44 @@
     --fpmidpl: 100px;
     --fpmidamr: 40px;
     --fprightpr: 100px;
-    --fpbuttont: 500px;
-    --fpbuttonl: 650px;
-    --fpbuttonw: auto;
-    --fpt1t: 5%;
-    --fpt1l: 420px;
-    --fpt1fs: 65px;
-    --fpt2t: 400px;
-    --fpt2l: 300px;
-    --fpt2fs: 17px;
-    --fpplanet1t: 5%;
-    --fpplanet1w: auto;
-    --fpplanet2t: 28%;
-    --fpplanet2w: auto;
-    --fpplanet3t: 85%;
-    --fpplanet3w: auto;
-    --fpplanet4t: 600px; 
-    --fpplanet4l: 620px;
-    --fpplanet4w: auto;
-    --fpplanet5t: 470px;
-    --fpplanet5w: auto;
-    --fpplanet5r: 0px;
-    --fpplanet6t: 90px;
-    --fpplanet6w: auto;
-    --fpplanet6r: 0px;
-    --fpplanet7t: 130px;
-    --fpplanet7w: auto;
-    --fpplanet7r: 560px;
-    --fpplanet8t: 370px;
-    --fpplanet8w: auto;
-    --fpplanet8l: 300px;
-}
+    --fpbuttont: 65%;
+    --fpbuttonl: 44%;
 
-/*@media screen and (max-width: 768px) {
+
+    --fpt1t: 20%;
+    --fpt1w: 100%;
+    --fpt1fs: 4em;
+
+
+    --fpt2t: 55%;
+    --fpt2w: 100%;
+    --fpt2fs: 1em;
+
+
+    --fpplanet1t: 5%;
+    --fpplanet1h: 20%;
+    --fpplanet2t: 28%;
+    --fpplanet2h: 60%;
+    --fpplanet3t: 85%;
+    --fpplanet3h: 15%;
+    --fpplanet4t: 80%; 
+    --fpplanet4l: 40%;
+    --fpplanet4h: 20%;
+    --fpplanet5t: 60%;
+    --fpplanet5h: 40%;
+    --fpplanet5r: 0px;
+    --fpplanet6t: 10%;
+    --fpplanet6h: 55%;
+    --fpplanet6r: 0px;
+    --fpplanet7t: 17%;
+    --fpplanet7h: 20%;
+    --fpplanet7r: 40%;
+    --fpplanet8t: 53%;
+    --fpplanet8h: 10%;
+    --fpplanet8l: 15%;
+}
+/*
+@media screen and (max-width: 768px) {
 :root {
     --fpleftml: 190px;
     --fplogomt: 40px;
@@ -84,17 +101,9 @@
     --fpplanet8w: 70px;
     --fpplanet8l: 300px;
 }
-}*/
-
-html {
-    scroll-behavior: smooth;
-    color: aliceblue;
 }
 
-a{
-    text-decoration: none;
-    color: white;
-}
+*/
 
 
 .container {
@@ -104,7 +113,7 @@ a{
     overflow-y: scroll;
     scrollbar-color: black;
     scrollbar-width: thin;
-    min-height: 500px;
+    min-height: 300px;
 }
 
 
@@ -158,13 +167,21 @@ a{
 }
 
 
-
+.button-container {
+    position:absolute;
+    width: 100%;
+    top: 65%;
+    padding-left: auto;
+    padding-right: auto;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+}
 
 .button {
-    position: absolute;
-    left: var(--fpbuttonl);
-    top: var(--fpbuttont);
-    width: var(--fpbuttonw);
+    min-width: 50px;
+    max-width: 200px;
+
 }
 
 button:hover {
@@ -174,25 +191,31 @@ button:hover {
 .text1 {
     position: absolute;
     top: var(--fpt1t);
-    left: var(--fpt1l);
     font-size: var(--fpt1fs);
+    width: var(--fpt1w);
     font-family: orbitron;
     font-weight: bold;
     display: flex;
-    justify-content: centre;
+    padding-left: auto;
+    padding-right: auto;
+    justify-content: center;
     text-align: center;
+    overflow: hidden;
 }
 
 .text2 {
     position: absolute;
     top: var(--fpt2t);
-    left: var(--fpt2l);
+    width: var(--fpt2w);
+    padding-left: auto;
+    padding-right: auto;
     font-size: var(--fpt2fs);
     font-family: inter;
     font-weight: bold;
     display: flex;
-    justify-content: centre;
+    justify-content: center;
     text-align: center;
+    overflow: hidden;
 }
 
 
@@ -203,54 +226,62 @@ button:hover {
 .planet1 {
     position: absolute;
     top: var(--fpplanet1t);
-    height: 20%;
+    height: var(--fpplanet1h);
+    overflow: hidden;
 }
 
 .planet2 {
     position: absolute;
     top: var(--fpplanet2t);
-    height:60%;
+    height:var(--fpplanet2h);
+    overflow: hidden;
 }
 
 .planet3 {
     position: absolute;
     top: var(--fpplanet3t);
-    height: 15%;
+    height: var(--fpplanet3h);
+    overflow: hidden;
 }
 
 .planet4 {
     position: absolute;
     top: var(--fpplanet4t);
     left: var(--fpplanet4l);
-    width: var(--fpplanet4w);
+    height: var(--fpplanet4h);
+    overflow: hidden;
 }
 
 .planet5 {
     position: absolute;
     right: var(--fpplanet5r);
     top:var(--fpplanet5t);
-    width: var(--fpplanet5w);
+    height: var(--fpplanet5h);
+    overflow: hidden;
 }
 
 .planet6 {
     position: absolute;
     right: var(--fpplanet6r);
     top: var(--fpplanet6t);
-    width: var(--fpplanet6w);
+    height: var(--fpplanet6h);
+    overflow: hidden;
 }
 
 .planet7 {
     position: absolute;
     right: var(--fpplanet7r);
     top: var(--fpplanet7t);
-    width: var(--fpplanet7w);
+    height: var(--fpplanet7h);
+    overflow: hidden;
 }
 
 .planet8 {
     position: absolute;
     left:var(--fpplanet8l);
     top: var(--fpplanet8t);
-    width: var(--fpplanet8w);
+    height: var(--fpplanet8h);
+    overflow: hidden;
 }
 
 
