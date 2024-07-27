@@ -40,6 +40,7 @@
     --fpplanet8w: 70px;
     --fpplanet8l: 300px;
 }
+
 @media screen and (max-width: 768px) {
 :root {
     --fpleftml: 190px;
@@ -61,7 +62,7 @@
     --fpt2t: 400px;
     --fpt2l: 300px;
     --fpt2fs: 17px;
-    --fpplanet1t: 2px;
+    --fpplanet1t: 20px;
     --fpplanet1w: 25px;
     --fpplanet2t: 180px;
     --fpplanet2w: 280px;
