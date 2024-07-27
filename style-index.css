@@ -41,7 +41,7 @@
     --fpplanet8l: 300px;
 }
 
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
 :root {
     --fpleftml: 190px;
     --fplogomt: 40px;
@@ -84,7 +84,7 @@
     --fpplanet8w: 70px;
     --fpplanet8l: 300px;
 }
-}
+}*/
 
 html {
     scroll-behavior: smooth;
