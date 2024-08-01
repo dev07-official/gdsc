@@ -21,6 +21,7 @@
         function show(shown, hidden) {
             document.getElementById(shown).style.display='block';
             document.getElementById(hidden).style.display='block';
+            document.getElementById(show).scrollIntoView({ behavior:'smooth' });
             return false;
           }
     </script>
@@ -51,7 +52,7 @@
         <div class="planet7"><img src="all png/planet7.png"></div>
         <div class="planet8"><img src="all png/planet8.png"></div>
 
-        <a href="#sun" onclick="return show('pages','index')">
+        <a onclick="return show('pages','index')" href="#sun" >
             <div class="button-container"></div>
         </a>
 
