@@ -1,0 +1,58 @@
+.container-jupiter {
+    position: relative;
+    background: url('all-sun-page-png/sun-bg.png') no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+    display:flex;
+    width:100vw;
+    height: 100vh;
+}
+
+
+.jup {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 90%;
+    left: 55%;
+    top: 0;
+}
+
+.jup-heading {
+    position: absolute;
+    display: flex;
+    top: 10%;
+    left: 10%;
+    width: 100%;
+    font-size: 4vw;
+    font-family: orbitron;
+    font-weight: bold;
+}
+
+.jup-text {
+    position: absolute;
+    display: flex;
+    left: 10%;
+    top: 22%;
+    width: 100%;
+    font-size: 1.2vw;
+    font-family: inter;
+}
+
+.jup-stat1 {
+    position: absolute;
+    display: flex;
+    left: 10%;
+    top: 40%;
+    width: 100%;
+    height: 20%;
+}
+
+.jup-stat2 {
+    position: absolute;
+    display: flex;
+    left: 10%;
+    top: 65%;
+    width: 100%;
+    height: 20%;
+}

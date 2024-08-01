@@ -1,0 +1,48 @@
+.container-mercury {
+    position: relative;
+    background: url('all-sun-page-png/Mercury-bg.png') no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+    display:flex;
+    width:100vw;
+    height: 100vh;
+}
+
+.mercury {
+    position: absolute;
+    display: flex;
+    left: -8%;
+    width: 100%;
+    height: 90%;
+    margin-top: 3%;
+}
+
+.merc-heading {
+    position: absolute;
+    display: flex;
+    margin-top: 5%;
+    left: 40%;
+    width: 100%;
+    font-size: 4vw;
+    font-family: orbitron;
+    font-weight: bold;
+}
+
+.merc-text {
+    position: absolute;
+    display: flex;
+    left: 40%;
+    margin-top: 12%;
+    width: 100%;
+    font-size: 1.2vw;
+    font-family: inter;
+}
+
+.merc-stats {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 50%;
+    left: 40%;
+    margin-top: 20%;
+}

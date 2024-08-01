@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+    <link rel="stylesheet" href="style-index.css">
+    <link rel="stylesheet" href="sun.css">
+    <link rel="stylesheet" href="mercury.css">
+    <link rel="stylesheet" href="venus.css">
+    <link rel="stylesheet" href="earth.css">
+    <link rel="stylesheet" href="mars.css">
+    <link rel="stylesheet" href="jupiter.css">
+    <link rel="stylesheet" href="saturn.css">
+    <link rel="stylesheet" href="uranus.css">
+    <link rel="stylesheet" href="neptune.css">
+    <link rel="stylesheet" href="footer.css">
+
+    <script>
+        function show(shown, hidden) {
+            document.getElementById(shown).style.display='block';
+            document.getElementById(hidden).style.display='block';
+            return false;
+          }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Orbitron:wght@400..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body style="background-color: black;">
+
+
+    <a href="#index" class="back-to-top"><span class="back-to-top">↑ Back to Top ↑</span></a>
+
+    <div id="index" class="container-index">
+        <div class="planet1"><img src="all png/Group 2.png"></div>
+        <div class="planet2"><img src="all png/Layer 2.png"></div>
+        <div class="planet3"><img src="all png/planet3.png"></div>
+        <div class="planet4"><img src="all png/planet4.png"></div>
+        <div class="planet5"><img src="all png/planet5.png"></div>
+        <div class="planet6"><img src="all png/planet6.png"></div>
+        <div class="planet7"><img src="all png/planet7.png"></div>
+        <div class="planet8"><img src="all png/planet8.png"></div>
+
+        <a href="#sun" onclick="return show('pages','index')">
+            <div class="button-container"></div>
+        </a>
+
+
+        <div class="text1">
+            Let's Get To Know<br> Our Solar System<br> Galaxy
+        </div>
+        <div class="text2">
+            Embark on a cosmic journey across the ethernal expance of the solar system Galaxy and follow the
+            orchestration of the<br> cosmos and the planets weaving stories of their timeless existence.
+        </div>
+
+        <div class="header">
+            <div class="left">
+                <div><img class="logo" src="all png/leaf-logo.png" alt=""></div>
+                <div class="header-heading">Galactec.io</div>
+            </div>
+
+            <div class="mid">
+                <div><a href="#mercury">Mercury</a></div>
+                <div><a href="#venus">Venus</a></div>
+                <div><a href="#earth">Earth</a></div>
+                <div><a href="#mars">Mars</a></div>
+
+
+                <div class="more">
+                    <a class="morelink">...</a>
+                    <div class="dropdown-content">
+                        <div class="dropdown-menu">
+                            <a href="#jupiter">Jupiter</a>
+                            <a href="#saturn">Saturn</a>
+                            <a href="#uranus">Uranus</a>
+                            <a href="#neptune">Neptune</a>
+                        </div>
+                    </div>
+                </div> <!-- end of more -->
+            </div> <!-- end of mid -->
+
+            <div class="right">©2023 Solarsystemdesign</div>
+
+        </div> <!-- end of header -->
+
+    </div> <!-- end of index container -->
+
+    <div class="pages" style="display: none;" id="pages">
+        <div id="sun" class="container-sun">
+            <div class="shade1"><img src="all-sun-page-png/sun-shade.png" alt=""></div>
+            <div class="sun"><img src="all-sun-page-png/sun.png" alt=""></div>
+            <div class="sun-stat"><img src="all-sun-page-png/sun-stats.png" alt=""></div>
+            <div class="sun-heading">
+                <h1>.Sun</h1>
+            </div>
+            <div class="sun-text">
+                <h2>
+                    The Sun is a huge, glowing ball of hot plasma at the centre of our solar system and provides the
+                    vital energy<br> needed for life on Earth. This energy radiates outward in the form of light and
+                    heat, providing warmth and<br> light to the entire solar system.
+                </h2>
+            </div>
+        </div> <!-- end of container-sun -->
+
+        <div id="mercury" class="container-mercury">
+            <div class="mercury"><img src="all-sun-page-png/mercury.png" alt=""></div>
+            <div class="merc-heading">1.Mercury</div>
+            <div class="merc-text">
+                Mercury is the closest planet to the sun is known for its extreme temprature and barren,<br>rocky
+                surface.It is one of the four terrestrial planets in our solar system, characterized by
+                their<br>solid,rocky composition
+            </div>
+            <div class="merc-stats"><img src="all-sun-page-png/mer-stats.png" alt=""></div>
+        </div> <!-- end of container-mercury -->
+
+        <div id="venus" class="container-venus">
+            <div class="venus"><img src="all-sun-page-png/venus.png" alt=""></div>
+            <div class="venus-heading">2.Venus</div>
+            <div class="venus-text">
+                Venus is often refered to as Earth's "sister planet" due to its similar size and<br> composition,but
+                it stands out with its extremely inhospitable enviroment
+            </div>
+            <div class="venus-stats"><img src="all-sun-page-png/vanus-stats.png" alt=""></div>
+        </div><!-- end of container-venus -->
+
+        <div id="earth" class="container-earth">
+            <div class="shade"><img src="all-sun-page-png/shade.png" alt=""></div>
+            <div class="earth"><img src="all-sun-page-png/earth.png" alt=""></div>
+            <div class="rocket"><img src="all-sun-page-png/rocket1.png" alt=""></div>
+            <div class="arrow"><img src="all-sun-page-png/arrow.png" alt=""></div>
+            <div class="earth-stat"><img src="all-sun-page-png/earth-stat.png" alt=""></div>
+            <div class="earth-heading">3.Earth</div>
+            <div class="earth-text">
+                Earth is the third planet from the Sun and the only known planet to support life. Earth is<br> the
+                only planet known to harbor life. It's a diverse and dynamic world with a wide range<br> of
+                ecosystems, climates, and geological features.
+            </div>
+            <div class="moon-heading">Moon Planet</div>
+            <div class="moon-text">
+                Earth has one natural satellite, the Moon, which plays a role in stabilizing the planet's<br>
+                rotation and tides. The Moon's gravitational pull causes ocean tides to rise and fall.
+            </div>
+        </div><!-- end of container-earth -->
+
+        <div id="mars" class="container-mars">
+            <div class="mars"><img src="all-sun-page-png/mars.png" alt=""></div>
+            <div class="mars-arrow"><img src="all-sun-page-png/mars-arrow.png" alt=""></div>
+            <div class="mars-stat1"><img src="all-sun-page-png/mars-stat1.png" alt=""></div>
+            <div class="mars-stat2"><img src="all-sun-page-png/mars-stat2.png" alt=""></div>
+            <div class="mars-stat3"><img src="all-sun-page-png/mars-stat3.png" alt=""></div>
+            <div class="mars-heading">4.Mars</div>
+            <div class="mars-text">
+                Mars, often referred to as the "Red Planet," is the fourth planet from the Sun and has<br>
+                captivated human imagination for centuries with its reddish appearance and potential<br> for hosting
+                life.
+            </div>
+            <div class="mars-moon-heading">Martian Moons</div>
+            <div class="mars-moon-text">
+                Mars has two small moons, Phobos and<br> Deimos, which are irregularly shaped and<br> thought to be
+                captured asteroids
+            </div>
+        </div><!-- end of container-mars -->
+
+        <div id="jupiter" class="container-jupiter">
+            <div class="jup"><img src="all-sun-page-png/jupiter.png" alt=""></div>
+            <div class="jup-heading">5.Jupiter</div>
+            <div class="jup-text">
+                Jupiter, the largest planet in our solar system, is a gas giant known for its<br>
+                immense size, powerful storms, and numerous moons.
+            </div>
+            <div class="jup-stat1"><img src="all-sun-page-png/jup-stat1.png" alt=""></div>
+            <div class="jup-stat2"><img src="all-sun-page-png/jup-stat2.png" alt=""></div>
+        </div><!-- end of container-jupiter -->
+
+        <div id="saturn" class="container-saturn">
+            <div class="sat"><img src="all-sun-page-png/saturn.png" alt=""></div>
+            <div class="sat-heading">6.Saturn</div>
+            <div class="sat-text">
+                Saturn, often referred to as the "Ringed Planet," is known for its stunning system of
+                rings<br> that encircle the planet's equator. It's the sixth planet from the Sun and is one of the
+                most<br> visually distinctive objects in our solar system, with more than 80 known satellites.
+            </div>
+            <div class="sat-stat1"><img src="all-sun-page-png/sat-stat1.png" alt=""></div>
+            <div class="sat-stat2"><img src="all-sun-page-png/sat-stat2.png" alt=""></div>
+        </div> <!-- end of container-saturn -->
+
+        <div id="uranus" class="container-uranus">
+            <div class="ur"><img src="all-sun-page-png/uranus.png" alt=""></div>
+            <div class="ur-heading">7.Uranus</div>
+            <div class="ur-text">
+                Uranus, often referred to as the "Ice Giant," is a unique and<br> mysterious planet in
+                our solar system. It stands out due to its<br> distinct blue-green color and its unusual rotation axis.
+            </div>
+            <div class="ur-stat"><img src="all-sun-page-png/ur-stat.png" alt=""></div>
+        </div><!-- end of container-uranus -->
+
+        <div id="neptune" class="container-neptune">
+            <div class="nep"><img src="all-sun-page-png/neptune.png" alt=""></div>
+            <div class="nep-stat"><img src="all-sun-page-png/nep-stat.png" alt=""></div>
+            <div class="nep-heading">8.Neptune</div>
+            <div class="nep-text">
+                Neptune, often called the "Blue Giant," is the eighth and farthest planet from the<br> Sun in our solar
+                system. It is a gas giant known for its<br> striking blue color and turbulent atmosphere.
+            </div>
+        </div><!-- end of container-neptune -->
+
+        <div id="footer" class="container-footer">
+            <div class="footer-img"><img src="all-sun-page-png/footer-img.png" alt=""></div>
+            <div class="footer-box">
+                <div class="box-heading">Join The Education Comunity</div>
+                <div class="box-text">
+                    Join the Education Comunity today and be part of a movement that's transforming minds and
+                    shaping<br>
+                    tomorrows.
+                </div>
+                <div class="email-box">
+                    <div class=" email-space">
+                        <input class=" email-text" onblur="validate()" type="email" name="email" id="email"
+                            placeholder="Enter your email" required>
+                    </div>
+                    <img class="subs" src="all-sun-page-png/subs.png" alt="">
+                </div>
+                <div class="footer-header">
+                    <div class="header2">
+                        <div class="left2">
+                            <div><img class="logo" src="all png/leaf-logo.png" alt=""></div>
+                            <div class="header-heading">Galactec.io</div>
+                        </div>
+
+                        <div class="mid2">
+                            <div><a href="#mercury">Mercury</a></div>
+                            <div><a href="#venus">Venus</a></div>
+                            <div><a href="#earth">Earth</a></div>
+                            <div><a href="#mars">Mars</a></div>
+
+
+                            <div class="more2">
+                                <a class="morelink2">...</a>
+                                <div class="dropdown-content2">
+                                    <div class="dropdown-menu2">
+                                        <a href="#jupiter">Jupiter</a>
+                                        <a href="#saturn">Saturn</a>
+                                        <a href="#uranus">Uranus</a>
+                                        <a href="#neptune">Neptune</a>
+                                    </div>
+                                </div>
+                            </div> <!-- end of more -->
+                        </div> <!-- end of mid -->
+
+                        <div class="right2">©2023 Solarsystemdesign</div>
+
+                    </div> <!-- end of header -->
+                </div>
+            </div>
+        </div><!-- end of container-footer -->
+    </div>
+
+
+</body>
+
+</html>
